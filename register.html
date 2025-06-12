@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style/register_style.css">
+</head>
+<body>
+    <section>
+        <div id="registerdiv">
+            <form id="register-forms" action="register">
+                <h1>Register</h1>
+                <label for="first-name"><strong>First Name: </strong></label>
+                <input type="text" placeholder="Enter your first name">
+                <label for="last-name"><strong>Last Name: </strong></label>
+                <input type="text" placeholder="Enter your last name">
+                <label for="email" id="emaillogin"><strong>Email: </strong></label>
+                <input type="email" placeholder="ex.: mary123@gmail.com">
+                <label for="password" id="passwordlogin"><strong>Password:</strong> </label>
+                <input type="password">
+                <select name="gender-selector" id="gender-selector">
+                    <option value="" disabled selected>Select your gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <p>By clicking Register, you agree on our <a href="terms_and_conditions/terms_and_conditions.pdf" target="_blank">Terms and Conditions</a>.</p>
+                <button id="register-Button" type="submit"><strong>Register</strong></button>
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
