@@ -16,13 +16,13 @@
             <form id="register-forms" action="register">
                 <h1>Register</h1>
                 <label for="first-name"><strong>First Name: </strong></label>
-                <input type="text" placeholder="Enter your first name">
+                <input id="regFirstName" type="text" placeholder="Enter your first name">
                 <label for="last-name"><strong>Last Name: </strong></label>
-                <input type="text" placeholder="Enter your last name">
+                <input id="regLastName" type="text" placeholder="Enter your last name">
                 <label for="email" id="emaillogin"><strong>Email address: </strong></label>
-                <input type="email" placeholder="ex.: mary123@gmail.com">
+                <input id="regEmail" type="email" placeholder="ex.: mary123@gmail.com">
                 <label for="password" id="passwordlogin"><strong>Password:</strong> </label>
-                <input type="password">
+                <input id="regPassword" type="password">
                 <select name="gender-selector" id="gender-selector">
                     <option value="" disabled selected>Select your gender</option>
                     <option value="male">Male</option>
@@ -35,5 +35,6 @@
             </form>
         </div>
     </section>
+    <script src="../script/script.js"></script>
 </body>
 </html>
